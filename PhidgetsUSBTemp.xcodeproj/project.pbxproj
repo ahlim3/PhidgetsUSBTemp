@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2B0F1442609497300ECF51B /* PhidgetsUSBTempApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1432609497300ECF51B /* PhidgetsUSBTempApp.swift */; };
+		D2B0F1462609497300ECF51B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1452609497300ECF51B /* ContentView.swift */; };
+		D2B0F1482609497400ECF51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B0F1472609497400ECF51B /* Assets.xcassets */; };
+		D2B0F14B2609497400ECF51B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B0F14A2609497400ECF51B /* Preview Assets.xcassets */; };
+		D2B0F1572609497400ECF51B /* PhidgetsUSBTempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1562609497400ECF51B /* PhidgetsUSBTempTests.swift */; };
+		D2B0F1622609497400ECF51B /* PhidgetsUSBTempUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1612609497400ECF51B /* PhidgetsUSBTempUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2B0F1532609497400ECF51B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2B0F1382609497300ECF51B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B0F13F2609497300ECF51B;
+			remoteInfo = PhidgetsUSBTemp;
+		};
+		D2B0F15E2609497400ECF51B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2B0F1382609497300ECF51B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B0F13F2609497300ECF51B;
+			remoteInfo = PhidgetsUSBTemp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2B0F1402609497300ECF51B /* PhidgetsUSBTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhidgetsUSBTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B0F1432609497300ECF51B /* PhidgetsUSBTempApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhidgetsUSBTempApp.swift; sourceTree = "<group>"; };
+		D2B0F1452609497300ECF51B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2B0F1472609497400ECF51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2B0F14A2609497400ECF51B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2B0F14C2609497400ECF51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B0F14D2609497400ECF51B /* PhidgetsUSBTemp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhidgetsUSBTemp.entitlements; sourceTree = "<group>"; };
+		D2B0F1522609497400ECF51B /* PhidgetsUSBTempTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhidgetsUSBTempTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B0F1562609497400ECF51B /* PhidgetsUSBTempTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhidgetsUSBTempTests.swift; sourceTree = "<group>"; };
+		D2B0F1582609497400ECF51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B0F15D2609497400ECF51B /* PhidgetsUSBTempUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhidgetsUSBTempUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B0F1612609497400ECF51B /* PhidgetsUSBTempUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhidgetsUSBTempUITests.swift; sourceTree = "<group>"; };
+		D2B0F1632609497400ECF51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2B0F13D2609497300ECF51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B0F14F2609497400ECF51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B0F15A2609497400ECF51B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2B0F1372609497300ECF51B = {
+			isa = PBXGroup;
+			children = (
+				D2B0F1422609497300ECF51B /* PhidgetsUSBTemp */,
+				D2B0F1552609497400ECF51B /* PhidgetsUSBTempTests */,
+				D2B0F1602609497400ECF51B /* PhidgetsUSBTempUITests */,
+				D2B0F1412609497300ECF51B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2B0F1412609497300ECF51B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2B0F1402609497300ECF51B /* PhidgetsUSBTemp.app */,
+				D2B0F1522609497400ECF51B /* PhidgetsUSBTempTests.xctest */,
+				D2B0F15D2609497400ECF51B /* PhidgetsUSBTempUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2B0F1422609497300ECF51B /* PhidgetsUSBTemp */ = {
+			isa = PBXGroup;
+			children = (
+				D2B0F1432609497300ECF51B /* PhidgetsUSBTempApp.swift */,
+				D2B0F1452609497300ECF51B /* ContentView.swift */,
+				D2B0F1472609497400ECF51B /* Assets.xcassets */,
+				D2B0F14C2609497400ECF51B /* Info.plist */,
+				D2B0F14D2609497400ECF51B /* PhidgetsUSBTemp.entitlements */,
+				D2B0F1492609497400ECF51B /* Preview Content */,
+			);
+			path = PhidgetsUSBTemp;
+			sourceTree = "<group>";
+		};
+		D2B0F1492609497400ECF51B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D2B0F14A2609497400ECF51B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2B0F1552609497400ECF51B /* PhidgetsUSBTempTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2B0F1562609497400ECF51B /* PhidgetsUSBTempTests.swift */,
+				D2B0F1582609497400ECF51B /* Info.plist */,
+			);
+			path = PhidgetsUSBTempTests;
+			sourceTree = "<group>";
+		};
+		D2B0F1602609497400ECF51B /* PhidgetsUSBTempUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2B0F1612609497400ECF51B /* PhidgetsUSBTempUITests.swift */,
+				D2B0F1632609497400ECF51B /* Info.plist */,
+			);
+			path = PhidgetsUSBTempUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2B0F13F2609497300ECF51B /* PhidgetsUSBTemp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B0F1662609497400ECF51B /* Build configuration list for PBXNativeTarget "PhidgetsUSBTemp" */;
+			buildPhases = (
+				D2B0F13C2609497300ECF51B /* Sources */,
+				D2B0F13D2609497300ECF51B /* Frameworks */,
+				D2B0F13E2609497300ECF51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhidgetsUSBTemp;
+			productName = PhidgetsUSBTemp;
+			productReference = D2B0F1402609497300ECF51B /* PhidgetsUSBTemp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2B0F1512609497400ECF51B /* PhidgetsUSBTempTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B0F1692609497400ECF51B /* Build configuration list for PBXNativeTarget "PhidgetsUSBTempTests" */;
+			buildPhases = (
+				D2B0F14E2609497400ECF51B /* Sources */,
+				D2B0F14F2609497400ECF51B /* Frameworks */,
+				D2B0F1502609497400ECF51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2B0F1542609497400ECF51B /* PBXTargetDependency */,
+			);
+			name = PhidgetsUSBTempTests;
+			productName = PhidgetsUSBTempTests;
+			productReference = D2B0F1522609497400ECF51B /* PhidgetsUSBTempTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2B0F15C2609497400ECF51B /* PhidgetsUSBTempUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2B0F16C2609497400ECF51B /* Build configuration list for PBXNativeTarget "PhidgetsUSBTempUITests" */;
+			buildPhases = (
+				D2B0F1592609497400ECF51B /* Sources */,
+				D2B0F15A2609497400ECF51B /* Frameworks */,
+				D2B0F15B2609497400ECF51B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2B0F15F2609497400ECF51B /* PBXTargetDependency */,
+			);
+			name = PhidgetsUSBTempUITests;
+			productName = PhidgetsUSBTempUITests;
+			productReference = D2B0F15D2609497400ECF51B /* PhidgetsUSBTempUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2B0F1382609497300ECF51B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D2B0F13F2609497300ECF51B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D2B0F1512609497400ECF51B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D2B0F13F2609497300ECF51B;
+					};
+					D2B0F15C2609497400ECF51B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D2B0F13F2609497300ECF51B;
+					};
+				};
+			};
+			buildConfigurationList = D2B0F13B2609497300ECF51B /* Build configuration list for PBXProject "PhidgetsUSBTemp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2B0F1372609497300ECF51B;
+			productRefGroup = D2B0F1412609497300ECF51B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2B0F13F2609497300ECF51B /* PhidgetsUSBTemp */,
+				D2B0F1512609497400ECF51B /* PhidgetsUSBTempTests */,
+				D2B0F15C2609497400ECF51B /* PhidgetsUSBTempUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2B0F13E2609497300ECF51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B0F14B2609497400ECF51B /* Preview Assets.xcassets in Resources */,
+				D2B0F1482609497400ECF51B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B0F1502609497400ECF51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B0F15B2609497400ECF51B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2B0F13C2609497300ECF51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B0F1462609497300ECF51B /* ContentView.swift in Sources */,
+				D2B0F1442609497300ECF51B /* PhidgetsUSBTempApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B0F14E2609497400ECF51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B0F1572609497400ECF51B /* PhidgetsUSBTempTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B0F1592609497400ECF51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B0F1622609497400ECF51B /* PhidgetsUSBTempUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2B0F1542609497400ECF51B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2B0F13F2609497300ECF51B /* PhidgetsUSBTemp */;
+			targetProxy = D2B0F1532609497400ECF51B /* PBXContainerItemProxy */;
+		};
+		D2B0F15F2609497400ECF51B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2B0F13F2609497300ECF51B /* PhidgetsUSBTemp */;
+			targetProxy = D2B0F15E2609497400ECF51B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D2B0F1642609497400ECF51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2B0F1652609497400ECF51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D2B0F1672609497400ECF51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhidgetsUSBTemp/PhidgetsUSBTemp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PhidgetsUSBTemp/Preview Content\"";
+				DEVELOPMENT_TEAM = V59RVGUYZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PhidgetsUSBTemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiIIT.PhidgetsUSBTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D2B0F1682609497400ECF51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhidgetsUSBTemp/PhidgetsUSBTemp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PhidgetsUSBTemp/Preview Content\"";
+				DEVELOPMENT_TEAM = V59RVGUYZD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PhidgetsUSBTemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiIIT.PhidgetsUSBTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D2B0F16A2609497400ECF51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V59RVGUYZD;
+				INFOPLIST_FILE = PhidgetsUSBTempTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiIIT.PhidgetsUSBTempTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhidgetsUSBTemp.app/Contents/MacOS/PhidgetsUSBTemp";
+			};
+			name = Debug;
+		};
+		D2B0F16B2609497400ECF51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V59RVGUYZD;
+				INFOPLIST_FILE = PhidgetsUSBTempTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiIIT.PhidgetsUSBTempTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhidgetsUSBTemp.app/Contents/MacOS/PhidgetsUSBTemp";
+			};
+			name = Release;
+		};
+		D2B0F16D2609497400ECF51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V59RVGUYZD;
+				INFOPLIST_FILE = PhidgetsUSBTempUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiIIT.PhidgetsUSBTempUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PhidgetsUSBTemp;
+			};
+			name = Debug;
+		};
+		D2B0F16E2609497400ECF51B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V59RVGUYZD;
+				INFOPLIST_FILE = PhidgetsUSBTempUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiIIT.PhidgetsUSBTempUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PhidgetsUSBTemp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2B0F13B2609497300ECF51B /* Build configuration list for PBXProject "PhidgetsUSBTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B0F1642609497400ECF51B /* Debug */,
+				D2B0F1652609497400ECF51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B0F1662609497400ECF51B /* Build configuration list for PBXNativeTarget "PhidgetsUSBTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B0F1672609497400ECF51B /* Debug */,
+				D2B0F1682609497400ECF51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B0F1692609497400ECF51B /* Build configuration list for PBXNativeTarget "PhidgetsUSBTempTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B0F16A2609497400ECF51B /* Debug */,
+				D2B0F16B2609497400ECF51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2B0F16C2609497400ECF51B /* Build configuration list for PBXNativeTarget "PhidgetsUSBTempUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B0F16D2609497400ECF51B /* Debug */,
+				D2B0F16E2609497400ECF51B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2B0F1382609497300ECF51B /* Project object */;
+}
