@@ -3,16 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B28170A2B5B29A0886A6F2D /* Pods_PhidgetsUSBTemp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39247776190112B63660E17F /* Pods_PhidgetsUSBTemp.framework */; };
 		D2B0F1442609497300ECF51B /* PhidgetsUSBTempApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1432609497300ECF51B /* PhidgetsUSBTempApp.swift */; };
 		D2B0F1462609497300ECF51B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1452609497300ECF51B /* ContentView.swift */; };
 		D2B0F1482609497400ECF51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B0F1472609497400ECF51B /* Assets.xcassets */; };
 		D2B0F14B2609497400ECF51B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2B0F14A2609497400ECF51B /* Preview Assets.xcassets */; };
 		D2B0F1572609497400ECF51B /* PhidgetsUSBTempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1562609497400ECF51B /* PhidgetsUSBTempTests.swift */; };
 		D2B0F1622609497400ECF51B /* PhidgetsUSBTempUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1612609497400ECF51B /* PhidgetsUSBTempUITests.swift */; };
+		D2B0F17C2609499F00ECF51B /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1722609499F00ECF51B /* ChangingPlotParameters.swift */; };
+		D2B0F17D2609499F00ECF51B /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1732609499F00ECF51B /* CorePlot.swift */; };
+		D2B0F17F2609499F00ECF51B /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1752609499F00ECF51B /* PlotDataClass.swift */; };
+		D2B0F1802609499F00ECF51B /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1762609499F00ECF51B /* TextExportDocument.swift */; };
+		D2B0F1812609499F00ECF51B /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1772609499F00ECF51B /* operators.swift */; };
+		D2B0F1832609499F00ECF51B /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1792609499F00ECF51B /* TextView.swift */; };
+		D2B0F19026094A6F00ECF51B /* TemperatureObserverClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F18F26094A6F00ECF51B /* TemperatureObserverClass.swift */; };
+		D2B0F19626094C1300ECF51B /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = D2B0F19526094C1300ECF51B /* CorePlot */; };
+		D2EF91BF260A8F6400D6A8C6 /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF91BE260A8F6400D6A8C6 /* TemperatureConverter.swift */; };
+		D2EF91C0260A8F6400D6A8C6 /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF91BE260A8F6400D6A8C6 /* TemperatureConverter.swift */; };
+		D2EF91C1260A8F6400D6A8C6 /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EF91BE260A8F6400D6A8C6 /* TemperatureConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39247776190112B63660E17F /* Pods_PhidgetsUSBTemp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhidgetsUSBTemp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D95938D713CF548F9877B5E /* Pods-PhidgetsUSBTemp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhidgetsUSBTemp.debug.xcconfig"; path = "Target Support Files/Pods-PhidgetsUSBTemp/Pods-PhidgetsUSBTemp.debug.xcconfig"; sourceTree = "<group>"; };
+		BC75AB9E94418891B214B142 /* Pods-PhidgetsUSBTemp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhidgetsUSBTemp.release.xcconfig"; path = "Target Support Files/Pods-PhidgetsUSBTemp/Pods-PhidgetsUSBTemp.release.xcconfig"; sourceTree = "<group>"; };
 		D2B0F1402609497300ECF51B /* PhidgetsUSBTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhidgetsUSBTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0F1432609497300ECF51B /* PhidgetsUSBTempApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhidgetsUSBTempApp.swift; sourceTree = "<group>"; };
 		D2B0F1452609497300ECF51B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +61,14 @@
 		D2B0F15D2609497400ECF51B /* PhidgetsUSBTempUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhidgetsUSBTempUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0F1612609497400ECF51B /* PhidgetsUSBTempUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhidgetsUSBTempUITests.swift; sourceTree = "<group>"; };
 		D2B0F1632609497400ECF51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2B0F1722609499F00ECF51B /* ChangingPlotParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangingPlotParameters.swift; sourceTree = "<group>"; };
+		D2B0F1732609499F00ECF51B /* CorePlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorePlot.swift; sourceTree = "<group>"; };
+		D2B0F1752609499F00ECF51B /* PlotDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotDataClass.swift; sourceTree = "<group>"; };
+		D2B0F1762609499F00ECF51B /* TextExportDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExportDocument.swift; sourceTree = "<group>"; };
+		D2B0F1772609499F00ECF51B /* operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = operators.swift; sourceTree = "<group>"; };
+		D2B0F1792609499F00ECF51B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		D2B0F18F26094A6F00ECF51B /* TemperatureObserverClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureObserverClass.swift; sourceTree = "<group>"; };
+		D2EF91BE260A8F6400D6A8C6 /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B0F19626094C1300ECF51B /* CorePlot in Frameworks */,
+				6B28170A2B5B29A0886A6F2D /* Pods_PhidgetsUSBTemp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23F63460C563A61512BA5044 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39247776190112B63660E17F /* Pods_PhidgetsUSBTemp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72BEAF28485D23EFFF7F43F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D95938D713CF548F9877B5E /* Pods-PhidgetsUSBTemp.debug.xcconfig */,
+				BC75AB9E94418891B214B142 /* Pods-PhidgetsUSBTemp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D2B0F1372609497300ECF51B = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +122,8 @@
 				D2B0F1552609497400ECF51B /* PhidgetsUSBTempTests */,
 				D2B0F1602609497400ECF51B /* PhidgetsUSBTempUITests */,
 				D2B0F1412609497300ECF51B /* Products */,
+				72BEAF28485D23EFFF7F43F6 /* Pods */,
+				23F63460C563A61512BA5044 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +141,15 @@
 			isa = PBXGroup;
 			children = (
 				D2B0F1432609497300ECF51B /* PhidgetsUSBTempApp.swift */,
+				D2EF91BE260A8F6400D6A8C6 /* TemperatureConverter.swift */,
 				D2B0F1452609497300ECF51B /* ContentView.swift */,
+				D2B0F18F26094A6F00ECF51B /* TemperatureObserverClass.swift */,
+				D2B0F1722609499F00ECF51B /* ChangingPlotParameters.swift */,
+				D2B0F1732609499F00ECF51B /* CorePlot.swift */,
+				D2B0F1752609499F00ECF51B /* PlotDataClass.swift */,
+				D2B0F1762609499F00ECF51B /* TextExportDocument.swift */,
+				D2B0F1772609499F00ECF51B /* operators.swift */,
+				D2B0F1792609499F00ECF51B /* TextView.swift */,
 				D2B0F1472609497400ECF51B /* Assets.xcassets */,
 				D2B0F14C2609497400ECF51B /* Info.plist */,
 				D2B0F14D2609497400ECF51B /* PhidgetsUSBTemp.entitlements */,
@@ -139,15 +191,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2B0F1662609497400ECF51B /* Build configuration list for PBXNativeTarget "PhidgetsUSBTemp" */;
 			buildPhases = (
+				14D27311D5D16755E08A603A /* [CP] Check Pods Manifest.lock */,
 				D2B0F13C2609497300ECF51B /* Sources */,
 				D2B0F13D2609497300ECF51B /* Frameworks */,
 				D2B0F13E2609497300ECF51B /* Resources */,
+				34E752FCB9BA8DE2C0C3A8F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PhidgetsUSBTemp;
+			packageProductDependencies = (
+				D2B0F19526094C1300ECF51B /* CorePlot */,
+			);
 			productName = PhidgetsUSBTemp;
 			productReference = D2B0F1402609497300ECF51B /* PhidgetsUSBTemp.app */;
 			productType = "com.apple.product-type.application";
@@ -219,6 +276,9 @@
 				Base,
 			);
 			mainGroup = D2B0F1372609497300ECF51B;
+			packageReferences = (
+				D2B0F19426094C1300ECF51B /* XCRemoteSwiftPackageReference "core-plot" */,
+			);
 			productRefGroup = D2B0F1412609497300ECF51B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -256,13 +316,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14D27311D5D16755E08A603A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhidgetsUSBTemp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34E752FCB9BA8DE2C0C3A8F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhidgetsUSBTemp/Pods-PhidgetsUSBTemp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhidgetsUSBTemp/Pods-PhidgetsUSBTemp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhidgetsUSBTemp/Pods-PhidgetsUSBTemp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2B0F13C2609497300ECF51B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2EF91BF260A8F6400D6A8C6 /* TemperatureConverter.swift in Sources */,
 				D2B0F1462609497300ECF51B /* ContentView.swift in Sources */,
+				D2B0F1812609499F00ECF51B /* operators.swift in Sources */,
+				D2B0F19026094A6F00ECF51B /* TemperatureObserverClass.swift in Sources */,
+				D2B0F1802609499F00ECF51B /* TextExportDocument.swift in Sources */,
+				D2B0F17F2609499F00ECF51B /* PlotDataClass.swift in Sources */,
+				D2B0F17D2609499F00ECF51B /* CorePlot.swift in Sources */,
 				D2B0F1442609497300ECF51B /* PhidgetsUSBTempApp.swift in Sources */,
+				D2B0F17C2609499F00ECF51B /* ChangingPlotParameters.swift in Sources */,
+				D2B0F1832609499F00ECF51B /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B0F1572609497400ECF51B /* PhidgetsUSBTempTests.swift in Sources */,
+				D2EF91C0260A8F6400D6A8C6 /* TemperatureConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B0F1622609497400ECF51B /* PhidgetsUSBTempUITests.swift in Sources */,
+				D2EF91C1260A8F6400D6A8C6 /* TemperatureConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,10 +527,12 @@
 		};
 		D2B0F1672609497400ECF51B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D95938D713CF548F9877B5E /* Pods-PhidgetsUSBTemp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PhidgetsUSBTemp/PhidgetsUSBTemp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PhidgetsUSBTemp/Preview Content\"";
@@ -439,10 +553,12 @@
 		};
 		D2B0F1682609497400ECF51B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC75AB9E94418891B214B142 /* Pods-PhidgetsUSBTemp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PhidgetsUSBTemp/PhidgetsUSBTemp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PhidgetsUSBTemp/Preview Content\"";
@@ -585,6 +701,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D2B0F19426094C1300ECF51B /* XCRemoteSwiftPackageReference "core-plot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/core-plot/core-plot";
+			requirement = {
+				branch = "release-2.4";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D2B0F19526094C1300ECF51B /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D2B0F19426094C1300ECF51B /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D2B0F1382609497300ECF51B /* Project object */;
 }
