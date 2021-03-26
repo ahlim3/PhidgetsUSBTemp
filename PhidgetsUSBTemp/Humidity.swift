@@ -1,5 +1,5 @@
 //
-//  Huminity.swift
+//  Humidity.swift
 //  PhidgetsUSBTemp
 //
 //  Created by Anthony Lim on 3/26/21.
@@ -18,7 +18,7 @@ class HuminityObserverClass: ObservableObject {
     
     // Instantiate temperatureSensor
     //let temperatureSensor = TemperatureSensor()
-      let huminitySensor = HumiditySensor()
+      let humiditySensor = HumiditySensor()
     // Instantiate temperatureConverter to convert between units
     //let temperatureConverter = TemperatureConverter()
     
@@ -134,11 +134,11 @@ class HuminityObserverClass: ObservableObject {
         do{
             //Subscribe to event
             
-            let _ = huminitySensor.humidityChange.addHandler(onTemperatureChange)
+            let _ = humiditySensor.humidityChange.addHandler(onTemperatureChange)
             
             //Open | Open establishes a connection between your object and your physical Phidget.
             
-            try huminitySensor.open()
+            try humiditySensor.open()
             
             plotDataModel!.zeroData()
             
@@ -166,11 +166,11 @@ class HuminityObserverClass: ObservableObject {
             
             //Close | Close ends a connection between your object and your physical Phidget.
             
-            try self.huminitySensor.close()
+            try self.humiditySensor.close()
             
             //Unsubscribe to event
             
-            self.huminitySensor.humidityChange.removeAllHandlers()
+            self.humiditySensor.humidityChange.removeAllHandlers()
             
             DispatchQueue.main.async {
                 // Update the UI to indicate that Data Collection has ended.
