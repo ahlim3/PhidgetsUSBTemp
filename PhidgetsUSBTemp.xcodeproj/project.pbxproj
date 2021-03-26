@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EF4A8780DC75830C7425A55 /* Pods_PhidgetsUSBTempTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA1D51A456933FEDB1FDA42 /* Pods_PhidgetsUSBTempTests.framework */; };
+		32DC0369527547C89CEA7F5B /* Pods_PhidgetsUSBTemp_PhidgetsUSBTempUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05BDBB633A0FC88E43C8013 /* Pods_PhidgetsUSBTemp_PhidgetsUSBTempUITests.framework */; };
 		6B28170A2B5B29A0886A6F2D /* Pods_PhidgetsUSBTemp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39247776190112B63660E17F /* Pods_PhidgetsUSBTemp.framework */; };
 		D2B0F1442609497300ECF51B /* PhidgetsUSBTempApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1432609497300ECF51B /* PhidgetsUSBTempApp.swift */; };
 		D2B0F1462609497300ECF51B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1452609497300ECF51B /* ContentView.swift */; };
@@ -45,9 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14C1F62941DB5384966C71F4 /* Pods-PhidgetsUSBTempTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhidgetsUSBTempTests.release.xcconfig"; path = "Target Support Files/Pods-PhidgetsUSBTempTests/Pods-PhidgetsUSBTempTests.release.xcconfig"; sourceTree = "<group>"; };
 		39247776190112B63660E17F /* Pods_PhidgetsUSBTemp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhidgetsUSBTemp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D95938D713CF548F9877B5E /* Pods-PhidgetsUSBTemp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhidgetsUSBTemp.debug.xcconfig"; path = "Target Support Files/Pods-PhidgetsUSBTemp/Pods-PhidgetsUSBTemp.debug.xcconfig"; sourceTree = "<group>"; };
+		88C34ABEE465F1B161333950 /* Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests.debug.xcconfig"; path = "Target Support Files/Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests/Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABA1D51A456933FEDB1FDA42 /* Pods_PhidgetsUSBTempTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhidgetsUSBTempTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC75AB9E94418891B214B142 /* Pods-PhidgetsUSBTemp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhidgetsUSBTemp.release.xcconfig"; path = "Target Support Files/Pods-PhidgetsUSBTemp/Pods-PhidgetsUSBTemp.release.xcconfig"; sourceTree = "<group>"; };
+		BD78D0132A81076FC27D4DF7 /* Pods-PhidgetsUSBTempTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhidgetsUSBTempTests.debug.xcconfig"; path = "Target Support Files/Pods-PhidgetsUSBTempTests/Pods-PhidgetsUSBTempTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D2B0F1402609497300ECF51B /* PhidgetsUSBTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhidgetsUSBTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B0F1432609497300ECF51B /* PhidgetsUSBTempApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhidgetsUSBTempApp.swift; sourceTree = "<group>"; };
 		D2B0F1452609497300ECF51B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +75,8 @@
 		D2B0F1792609499F00ECF51B /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		D2B0F18F26094A6F00ECF51B /* TemperatureObserverClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureObserverClass.swift; sourceTree = "<group>"; };
 		D2EF91BE260A8F6400D6A8C6 /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
+		D612CD672651A4FA131B6F22 /* Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests.release.xcconfig"; path = "Target Support Files/Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests/Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F05BDBB633A0FC88E43C8013 /* Pods_PhidgetsUSBTemp_PhidgetsUSBTempUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhidgetsUSBTemp_PhidgetsUSBTempUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF4A8780DC75830C7425A55 /* Pods_PhidgetsUSBTempTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DC0369527547C89CEA7F5B /* Pods_PhidgetsUSBTemp_PhidgetsUSBTempUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				39247776190112B63660E17F /* Pods_PhidgetsUSBTemp.framework */,
+				F05BDBB633A0FC88E43C8013 /* Pods_PhidgetsUSBTemp_PhidgetsUSBTempUITests.framework */,
+				ABA1D51A456933FEDB1FDA42 /* Pods_PhidgetsUSBTempTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +123,10 @@
 			children = (
 				3D95938D713CF548F9877B5E /* Pods-PhidgetsUSBTemp.debug.xcconfig */,
 				BC75AB9E94418891B214B142 /* Pods-PhidgetsUSBTemp.release.xcconfig */,
+				88C34ABEE465F1B161333950 /* Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests.debug.xcconfig */,
+				D612CD672651A4FA131B6F22 /* Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests.release.xcconfig */,
+				BD78D0132A81076FC27D4DF7 /* Pods-PhidgetsUSBTempTests.debug.xcconfig */,
+				14C1F62941DB5384966C71F4 /* Pods-PhidgetsUSBTempTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -213,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2B0F1692609497400ECF51B /* Build configuration list for PBXNativeTarget "PhidgetsUSBTempTests" */;
 			buildPhases = (
+				456FFDD85AB2FFF39E2E1AA0 /* [CP] Check Pods Manifest.lock */,
 				D2B0F14E2609497400ECF51B /* Sources */,
 				D2B0F14F2609497400ECF51B /* Frameworks */,
 				D2B0F1502609497400ECF51B /* Resources */,
@@ -231,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2B0F16C2609497400ECF51B /* Build configuration list for PBXNativeTarget "PhidgetsUSBTempUITests" */;
 			buildPhases = (
+				AC5EE4307CEA5140F207F6DE /* [CP] Check Pods Manifest.lock */,
 				D2B0F1592609497400ECF51B /* Sources */,
 				D2B0F15A2609497400ECF51B /* Frameworks */,
 				D2B0F15B2609497400ECF51B /* Resources */,
+				587D7ED662C9EB27B0B301B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -354,6 +373,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhidgetsUSBTemp/Pods-PhidgetsUSBTemp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		456FFDD85AB2FFF39E2E1AA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhidgetsUSBTempTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		587D7ED662C9EB27B0B301B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests/Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests/Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests/Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC5EE4307CEA5140F207F6DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -536,7 +616,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PhidgetsUSBTemp/Preview Content\"";
-				DEVELOPMENT_TEAM = V59RVGUYZD;
+				DEVELOPMENT_TEAM = 474K5VTWLD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PhidgetsUSBTemp/Info.plist;
@@ -562,7 +642,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PhidgetsUSBTemp/Preview Content\"";
-				DEVELOPMENT_TEAM = V59RVGUYZD;
+				DEVELOPMENT_TEAM = 474K5VTWLD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PhidgetsUSBTemp/Info.plist;
@@ -579,12 +659,13 @@
 		};
 		D2B0F16A2609497400ECF51B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD78D0132A81076FC27D4DF7 /* Pods-PhidgetsUSBTempTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V59RVGUYZD;
+				DEVELOPMENT_TEAM = 474K5VTWLD;
 				INFOPLIST_FILE = PhidgetsUSBTempTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -601,12 +682,13 @@
 		};
 		D2B0F16B2609497400ECF51B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C1F62941DB5384966C71F4 /* Pods-PhidgetsUSBTempTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V59RVGUYZD;
+				DEVELOPMENT_TEAM = 474K5VTWLD;
 				INFOPLIST_FILE = PhidgetsUSBTempTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -623,11 +705,12 @@
 		};
 		D2B0F16D2609497400ECF51B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C34ABEE465F1B161333950 /* Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V59RVGUYZD;
+				DEVELOPMENT_TEAM = 474K5VTWLD;
 				INFOPLIST_FILE = PhidgetsUSBTempUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -643,11 +726,12 @@
 		};
 		D2B0F16E2609497400ECF51B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D612CD672651A4FA131B6F22 /* Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V59RVGUYZD;
+				DEVELOPMENT_TEAM = 474K5VTWLD;
 				INFOPLIST_FILE = PhidgetsUSBTempUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
