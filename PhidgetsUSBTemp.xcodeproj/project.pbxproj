@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1EF4A8780DC75830C7425A55 /* Pods_PhidgetsUSBTempTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA1D51A456933FEDB1FDA42 /* Pods_PhidgetsUSBTempTests.framework */; };
 		32DC0369527547C89CEA7F5B /* Pods_PhidgetsUSBTemp_PhidgetsUSBTempUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05BDBB633A0FC88E43C8013 /* Pods_PhidgetsUSBTemp_PhidgetsUSBTempUITests.framework */; };
+		4341A7C4260E51FE0082C3F6 /* Huminity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341A7C3260E51FE0082C3F6 /* Huminity.swift */; };
+		4341A7C5260E51FE0082C3F6 /* Huminity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341A7C3260E51FE0082C3F6 /* Huminity.swift */; };
+		4341A7C6260E51FE0082C3F6 /* Huminity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4341A7C3260E51FE0082C3F6 /* Huminity.swift */; };
 		6B28170A2B5B29A0886A6F2D /* Pods_PhidgetsUSBTemp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39247776190112B63660E17F /* Pods_PhidgetsUSBTemp.framework */; };
 		D2B0F1442609497300ECF51B /* PhidgetsUSBTempApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1432609497300ECF51B /* PhidgetsUSBTempApp.swift */; };
 		D2B0F1462609497300ECF51B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0F1452609497300ECF51B /* ContentView.swift */; };
@@ -50,6 +53,7 @@
 		14C1F62941DB5384966C71F4 /* Pods-PhidgetsUSBTempTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhidgetsUSBTempTests.release.xcconfig"; path = "Target Support Files/Pods-PhidgetsUSBTempTests/Pods-PhidgetsUSBTempTests.release.xcconfig"; sourceTree = "<group>"; };
 		39247776190112B63660E17F /* Pods_PhidgetsUSBTemp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhidgetsUSBTemp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D95938D713CF548F9877B5E /* Pods-PhidgetsUSBTemp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhidgetsUSBTemp.debug.xcconfig"; path = "Target Support Files/Pods-PhidgetsUSBTemp/Pods-PhidgetsUSBTemp.debug.xcconfig"; sourceTree = "<group>"; };
+		4341A7C3260E51FE0082C3F6 /* Huminity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Huminity.swift; sourceTree = "<group>"; };
 		88C34ABEE465F1B161333950 /* Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests.debug.xcconfig"; path = "Target Support Files/Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests/Pods-PhidgetsUSBTemp-PhidgetsUSBTempUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABA1D51A456933FEDB1FDA42 /* Pods_PhidgetsUSBTempTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhidgetsUSBTempTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC75AB9E94418891B214B142 /* Pods-PhidgetsUSBTemp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhidgetsUSBTemp.release.xcconfig"; path = "Target Support Files/Pods-PhidgetsUSBTemp/Pods-PhidgetsUSBTemp.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 				D2EF91BE260A8F6400D6A8C6 /* TemperatureConverter.swift */,
 				D2B0F1452609497300ECF51B /* ContentView.swift */,
 				D2B0F18F26094A6F00ECF51B /* TemperatureObserverClass.swift */,
+				4341A7C3260E51FE0082C3F6 /* Huminity.swift */,
 				D2B0F1722609499F00ECF51B /* ChangingPlotParameters.swift */,
 				D2B0F1732609499F00ECF51B /* CorePlot.swift */,
 				D2B0F1752609499F00ECF51B /* PlotDataClass.swift */,
@@ -453,6 +458,7 @@
 				D2B0F1442609497300ECF51B /* PhidgetsUSBTempApp.swift in Sources */,
 				D2B0F17C2609499F00ECF51B /* ChangingPlotParameters.swift in Sources */,
 				D2B0F1832609499F00ECF51B /* TextView.swift in Sources */,
+				4341A7C4260E51FE0082C3F6 /* Huminity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B0F1572609497400ECF51B /* PhidgetsUSBTempTests.swift in Sources */,
+				4341A7C5260E51FE0082C3F6 /* Huminity.swift in Sources */,
 				D2EF91C0260A8F6400D6A8C6 /* TemperatureConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +477,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2B0F1622609497400ECF51B /* PhidgetsUSBTempUITests.swift in Sources */,
+				4341A7C6260E51FE0082C3F6 /* Huminity.swift in Sources */,
 				D2EF91C1260A8F6400D6A8C6 /* TemperatureConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
